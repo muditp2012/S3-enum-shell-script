@@ -1,1 +1,5 @@
+This Simple shell script can be used to itrate through S3 buckets listed in a file name called s3-names.txt.
+This shell script will iterate through every bucket and will list out the bucket if it accessbile to public.
 
+If any if the bucket command output returns "FULL_CONTROL" for the "Permission" attribute, the selected Amazon S3 bucket is publicly 
+exposed to the Internet, therefore the bucket ACL configuration is not secure and compliant.
